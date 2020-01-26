@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calendar</title>
+    <script src="script.js"></script>
+    <style>
+        .header {
+        margin: 5px;
+        padding: 5px;
+       background-color: antiquewhite;
+       box-shadow: black;
+        }
+        .navBar{
+            width:auto;
+          
+            float: left;
+        }
+        #calendar{
+            margin: -5px 500px;
+        }
+        #todayDate{
+            margin-top: -30px;
+        }
+        .todayButton{
+            margin-left: 1000px;
+            display: inline-block;
+        }
+        #prevBtn{
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main">
+        <div class="header">
+            <div class="navBar">
+            <h2 id="calendar">Calendar</h2>
+         
+           
+            <h2 id="todayDate">Date</h2>
+            </div>
+            <select id="calendarView">
+                <option name="calendar">Month View</option>
+                <option name="calendar">Date View</option>
+            </select>
+            <button id="prevBtn">Prev</button>
+           <button id="nextBtn">Next</button>
+
+        </div>
+        <div section="calendar" id="calendar"></div>
+
+    </div>
+
+
+</body>
+
+</html>
