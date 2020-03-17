@@ -1,5 +1,4 @@
 window.onload = function () {
-
     window.currentCalDate = new Date();
     window.createTable = function (nextDate) {
         let todayDate = new Date();
