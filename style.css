@@ -1,3 +1,21 @@
-.header{
-    color: black;
+body{
+    margin:0;
+    padding:0;
+}
+
+.calendarView {
+    float: right;
+}
+
+.left{
+    width: 150px;
+}
+
+#todayDate{
+    text-align: center;
+}
+
+.header {
+    margin: 5px;
+    padding: 5px;
 }
